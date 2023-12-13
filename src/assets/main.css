@@ -1,0 +1,6 @@
+@import './base.css';
+
+/* css cho nút button done */
+.button-done .ant-btn-loading-icon{
+    display: flex;
+}
