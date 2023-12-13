@@ -30,7 +30,6 @@ import { ref, onMounted, computed, watch,watchEffect } from "vue";
 import type { typeTask, typeStorageTask } from "../types";
 import ListTask from "./ListTask.vue";
 import { filterUser,filterDetail} from "../utils/filterUser";
-import {getTaskUser} from '../redux/Store'
 
 
 const value = ref<string | undefined>(undefined);
