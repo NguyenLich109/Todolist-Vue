@@ -11,7 +11,6 @@ export interface user {
 }
 
 export interface typeStorageTask {
-    key: number,
-    storage: typeTask[]
-  }
-  
+  key: number;
+  storage: typeTask[];
+}
